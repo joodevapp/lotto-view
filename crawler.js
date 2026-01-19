@@ -6,45 +6,45 @@ import fs from 'fs';
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage();
 
-  let lottoData = null;
-
-  // 네트워크 응답에서 실제 JSON을 가로챈다
-  page.on('response', async (response) => {
-    const url = response.url();
-    if (url.includes('getLottoNumber')) {
-      try {
-        const json = await response.json();
-        if (json && json.returnValue === 'success') {
-          lottoData = {
-            drwNo: json.drwNo,
-            numbers: [
-              json.drwtNo1,
-              json.drwtNo2,
-              json.drwtNo3,
-              json.drwtNo4,
-              json.drwtNo5,
-              json.drwtNo6
-            ],
-            bonus: json.bnusNo,
-            date: json.drwNoDate,
-            updatedAt: new Date().toISOString()
-          };
-        }
-      } catch (_) {}
-    }
+  // 페이지는 그냥 한 번 열어주기만 하면 됨 (쿠키/컨텍스트 확보용)
+  await page.goto('https://www.dhlottery.co.kr/lt645/result', {
+    waitUntil: 'domcontentloaded'
   });
 
-  // 페이지 렌더 (JS 실행되도록)
-  await page.goto('https://www.dhlottery.co.kr/lt645/result', {
-    waitUntil: 'networkidle'
+  // 🔥 브라우저 컨텍스트에서 API를 직접 호출
+  const lottoData = await page.evaluate(async () => {
+    const res = await fetch(
+      'https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=1207',
+      {
+        headers: {
+          'Accept': 'application/json, text/plain, */*'
+        }
+      }
+    );
+    return await res.json();
   });
 
   await browser.close();
 
-  if (!lottoData) {
-    throw new Error('당첨 JSON 캡처 실패');
+  if (!lottoData || lottoData.returnValue !== 'success') {
+    throw new Error('당첨 JSON 가져오기 실패');
   }
 
-  fs.writeFileSync('lotto.json', JSON.stringify(lottoData, null, 2));
-  console.log('lotto.json 갱신 완료');
+  const result = {
+    drwNo: lottoData.drwNo,
+    numbers: [
+      lottoData.drwtNo1,
+      lottoData.drwtNo2,
+      lottoData.drwtNo3,
+      lottoData.drwtNo4,
+      lottoData.drwtNo5,
+      lottoData.drwtNo6
+    ],
+    bonus: lottoData.bnusNo,
+    date: lottoData.drwNoDate,
+    updatedAt: new Date().toISOString()
+  };
+
+  fs.writeFileSync('lotto.json', JSON.stringify(result, null, 2));
+  console.log('lotto.json 생성/갱신 완료');
 })();
