@@ -2,49 +2,48 @@
 import { chromium } from 'playwright';
 import fs from 'fs';
 
+const ROUND = 1207;
+const API = `https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=${ROUND}`;
+
 (async () => {
   const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
-
-  // 페이지는 그냥 한 번 열어주기만 하면 됨 (쿠키/컨텍스트 확보용)
-  await page.goto('https://www.dhlottery.co.kr/lt645/result', {
-    waitUntil: 'domcontentloaded'
+  const context = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
   });
 
-  // 🔥 브라우저 컨텍스트에서 API를 직접 호출
-  const lottoData = await page.evaluate(async () => {
-    const res = await fetch(
-      'https://www.dhlottery.co.kr/common.do?method=getLottoNumber&drwNo=1207',
-      {
-        headers: {
-          'Accept': 'application/json, text/plain, */*'
-        }
-      }
-    );
-    return await res.json();
+  // 🔴 핵심: page.evaluate(fetch) 말고, context.request 사용
+  const res = await context.request.get(API, {
+    headers: {
+      'Accept': 'application/json, text/plain, */*',
+      'Referer': 'https://www.dhlottery.co.kr/',
+      'Accept-Language': 'ko-KR,ko;q=0.9'
+    }
   });
 
+  const text = await res.text(); // 먼저 text로 받는다
   await browser.close();
 
-  if (!lottoData || lottoData.returnValue !== 'success') {
-    throw new Error('당첨 JSON 가져오기 실패');
+  // HTML이면 여기서 바로 걸러낸다
+  if (text.trim().startsWith('<')) {
+    throw new Error('API가 HTML로 응답(차단). 이 경로는 환경상 불가.');
   }
 
-  const result = {
-    drwNo: lottoData.drwNo,
+  const data = JSON.parse(text);
+  if (!data || data.returnValue !== 'success') {
+    throw new Error('유효한 JSON 아님');
+  }
+
+  const out = {
+    drwNo: data.drwNo,
     numbers: [
-      lottoData.drwtNo1,
-      lottoData.drwtNo2,
-      lottoData.drwtNo3,
-      lottoData.drwtNo4,
-      lottoData.drwtNo5,
-      lottoData.drwtNo6
+      data.drwtNo1, data.drwtNo2, data.drwtNo3,
+      data.drwtNo4, data.drwtNo5, data.drwtNo6
     ],
-    bonus: lottoData.bnusNo,
-    date: lottoData.drwNoDate,
+    bonus: data.bnusNo,
+    date: data.drwNoDate,
     updatedAt: new Date().toISOString()
   };
 
-  fs.writeFileSync('lotto.json', JSON.stringify(result, null, 2));
-  console.log('lotto.json 생성/갱신 완료');
+  fs.writeFileSync('lotto.json', JSON.stringify(out, null, 2));
+  console.log('lotto.json 생성 완료');
 })();
