@@ -1,3 +1,4 @@
+// crawler.js
 import { chromium } from 'playwright';
 import fs from 'fs';
 
@@ -7,7 +8,7 @@ import fs from 'fs';
 
   let lottoData = null;
 
-  // 네트워크 응답 가로채기
+  // 네트워크 응답에서 실제 JSON을 가로챈다
   page.on('response', async (response) => {
     const url = response.url();
     if (url.includes('getLottoNumber')) {
@@ -33,7 +34,7 @@ import fs from 'fs';
     }
   });
 
-  // 페이지 렌더 (UI는 안 봐도 됨)
+  // 페이지 렌더 (JS 실행되도록)
   await page.goto('https://www.dhlottery.co.kr/lt645/result', {
     waitUntil: 'networkidle'
   });
