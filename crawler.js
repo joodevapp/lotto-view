@@ -1,5 +1,5 @@
 import axios from 'axios';
-import cheerio from 'cheerio';
+import * as cheerio from 'cheerio';
 import fs from 'fs';
 
 const URL = 'https://www.dhlottery.co.kr/common.do?method=main';
