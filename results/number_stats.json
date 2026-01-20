@@ -4,40 +4,32 @@
   "periods": {
     "2개월": {
       "top": [
-        16,
         1,
-        24,
+        16,
         27,
-        31,
-        3
+        3,
+        4,
+        24
       ],
       "bottom": [
-        13,
         14,
         15,
         19,
+        25,
         34,
         43
       ],
       "stats": [
         {
-          "number": 16,
-          "count": 4
-        },
-        {
           "number": 1,
           "count": 3
         },
         {
-          "number": 24,
+          "number": 16,
           "count": 3
         },
         {
           "number": 27,
-          "count": 3
-        },
-        {
-          "number": 31,
           "count": 3
         },
         {
@@ -49,11 +41,11 @@
           "count": 2
         },
         {
-          "number": 30,
+          "number": 24,
           "count": 2
         },
         {
-          "number": 32,
+          "number": 31,
           "count": 2
         },
         {
@@ -117,10 +109,6 @@
           "count": 1
         },
         {
-          "number": 25,
-          "count": 1
-        },
-        {
           "number": 26,
           "count": 1
         },
@@ -130,6 +118,14 @@
         },
         {
           "number": 29,
+          "count": 1
+        },
+        {
+          "number": 30,
+          "count": 1
+        },
+        {
+          "number": 32,
           "count": 1
         },
         {
@@ -190,6 +186,10 @@
         },
         {
           "number": 19,
+          "count": 0
+        },
+        {
+          "number": 25,
           "count": 0
         },
         {
@@ -604,9 +604,9 @@
     },
     "3년": {
       "top": [
-        30,
         3,
         7,
+        30,
         6,
         16,
         19
@@ -621,15 +621,15 @@
       ],
       "stats": [
         {
-          "number": 30,
-          "count": 30
-        },
-        {
           "number": 3,
           "count": 29
         },
         {
           "number": 7,
+          "count": 29
+        },
+        {
+          "number": 30,
           "count": 29
         },
         {
@@ -645,12 +645,12 @@
           "count": 27
         },
         {
-          "number": 33,
+          "number": 38,
           "count": 27
         },
         {
-          "number": 38,
-          "count": 27
+          "number": 33,
+          "count": 26
         },
         {
           "number": 40,
@@ -673,10 +673,6 @@
           "count": 24
         },
         {
-          "number": 35,
-          "count": 24
-        },
-        {
           "number": 37,
           "count": 24
         },
@@ -685,11 +681,7 @@
           "count": 24
         },
         {
-          "number": 21,
-          "count": 23
-        },
-        {
-          "number": 26,
+          "number": 35,
           "count": 23
         },
         {
@@ -697,11 +689,15 @@
           "count": 22
         },
         {
-          "number": 31,
-          "count": 21
+          "number": 21,
+          "count": 22
         },
         {
-          "number": 32,
+          "number": 26,
+          "count": 22
+        },
+        {
+          "number": 31,
           "count": 21
         },
         {
@@ -718,6 +714,10 @@
         },
         {
           "number": 23,
+          "count": 20
+        },
+        {
+          "number": 32,
           "count": 20
         },
         {
@@ -816,13 +816,13 @@
         40,
         8,
         20,
-        25,
-        5
+        5,
+        25
       ],
       "stats": [
         {
           "number": 12,
-          "count": 87
+          "count": 86
         },
         {
           "number": 33,
@@ -849,11 +849,11 @@
           "count": 79
         },
         {
-          "number": 13,
-          "count": 78
+          "number": 6,
+          "count": 77
         },
         {
-          "number": 6,
+          "number": 13,
           "count": 77
         },
         {
@@ -869,20 +869,20 @@
           "count": 76
         },
         {
-          "number": 7,
-          "count": 75
-        },
-        {
           "number": 19,
           "count": 75
         },
         {
-          "number": 24,
+          "number": 7,
           "count": 74
         },
         {
+          "number": 24,
+          "count": 73
+        },
+        {
           "number": 28,
-          "count": 74
+          "count": 73
         },
         {
           "number": 35,
@@ -893,10 +893,6 @@
           "count": 72
         },
         {
-          "number": 15,
-          "count": 71
-        },
-        {
           "number": 36,
           "count": 71
         },
@@ -905,8 +901,8 @@
           "count": 71
         },
         {
-          "number": 10,
-          "count": 68
+          "number": 15,
+          "count": 70
         },
         {
           "number": 14,
@@ -921,20 +917,20 @@
           "count": 68
         },
         {
+          "number": 10,
+          "count": 67
+        },
+        {
           "number": 42,
-          "count": 68
+          "count": 67
         },
         {
           "number": 43,
-          "count": 68
+          "count": 67
         },
         {
           "number": 44,
           "count": 67
-        },
-        {
-          "number": 1,
-          "count": 66
         },
         {
           "number": 17,
@@ -951,6 +947,10 @@
         {
           "number": 29,
           "count": 66
+        },
+        {
+          "number": 1,
+          "count": 65
         },
         {
           "number": 41,
@@ -986,18 +986,18 @@
         },
         {
           "number": 8,
-          "count": 57
+          "count": 56
         },
         {
           "number": 20,
           "count": 55
         },
         {
-          "number": 25,
-          "count": 54
+          "number": 5,
+          "count": 53
         },
         {
-          "number": 5,
+          "number": 25,
           "count": 53
         }
       ]
