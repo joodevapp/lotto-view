@@ -1,5 +1,41 @@
 [
   {
+    "round": 1208,
+    "date": "2026-01-24",
+    "stores": [
+      {
+        "name": "고척대박복권&카페",
+        "address": "서울 구로구 경인로47길 68 1층(고척동)",
+        "combination": "자동"
+      },
+      {
+        "name": "인터넷 복권판매사이트",
+        "address": "동행복권(dhlottery.co.kr)",
+        "combination": "자동"
+      },
+      {
+        "name": "가로판매점",
+        "address": "서울 영등포구 양평로 46 가판",
+        "combination": "자동"
+      },
+      {
+        "name": "왕대박 복권판매점",
+        "address": "대전 유성구 문화원로 54 서은빌딩 102호(궁동)",
+        "combination": "자동"
+      },
+      {
+        "name": "지에스25 안성칠곡",
+        "address": "경기 안성시 만세로 1182 지에스25 안성칠곡",
+        "combination": "자동"
+      },
+      {
+        "name": "로또복권",
+        "address": "경기 오산시 성호새싹길 11",
+        "combination": "자동"
+      }
+    ]
+  },
+  {
     "round": 1207,
     "date": "2026-01-17",
     "stores": [
