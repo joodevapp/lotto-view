@@ -1,5 +1,131 @@
 [
   {
+    "round": 1210,
+    "date": "2026-02-07",
+    "stores": [
+      {
+        "name": "행운식품",
+        "address": "서울 관악구 신원로3길 21",
+        "combination": "자동"
+      },
+      {
+        "name": "소망복권",
+        "address": "서울 구로구 경인로35길 83 1층 101호(고척동)",
+        "combination": "수동"
+      },
+      {
+        "name": "용꿈돼지꿈",
+        "address": "서울 마포구 마포대로 112-5",
+        "combination": "자동"
+      },
+      {
+        "name": "인터넷 복권판매사이트",
+        "address": "동행복권(dhlottery.co.kr)",
+        "combination": "수동"
+      },
+      {
+        "name": "인터넷 복권판매사이트",
+        "address": "동행복권(dhlottery.co.kr)",
+        "combination": "자동"
+      },
+      {
+        "name": "인터넷 복권판매사이트",
+        "address": "동행복권(dhlottery.co.kr)",
+        "combination": "수동"
+      },
+      {
+        "name": "씨스페이스 응암역점",
+        "address": "서울 은평구 연서로 9 센터폴리스 1층 107호",
+        "combination": "수동"
+      },
+      {
+        "name": "부일카서비스",
+        "address": "부산 동구 자성로133번길 35",
+        "combination": "자동"
+      },
+      {
+        "name": "미라클",
+        "address": "인천 서구 심곡로49번길 2 1층",
+        "combination": "수동"
+      },
+      {
+        "name": "베스토아(용전2호)",
+        "address": "대전 동구 동서대로 1689 복합터미널서관 1층 59호",
+        "combination": "자동"
+      },
+      {
+        "name": "로또명당 일산점",
+        "address": "경기 고양시 일산서구 일중로15번길 86 101호",
+        "combination": "자동"
+      },
+      {
+        "name": "리맥스복권방",
+        "address": "경기 구리시 경춘로 239 리맥스프라자 앞 가판대(인창동 676-1)",
+        "combination": "수동"
+      },
+      {
+        "name": "로또명당",
+        "address": "경기 남양주시 금강로 1557 104호",
+        "combination": "반자동"
+      },
+      {
+        "name": "신의 축복",
+        "address": "경기 남양주시 사릉로34번길 24 (금곡동) 7호",
+        "combination": "자동"
+      },
+      {
+        "name": "공원슈퍼",
+        "address": "경기 수원시 장안구 팔달로 255 1층(영화동)",
+        "combination": "자동"
+      },
+      {
+        "name": "다니엘사",
+        "address": "경기 안산시 단원구 원선1로 38 101호",
+        "combination": "수동"
+      },
+      {
+        "name": "다니엘사",
+        "address": "경기 안산시 단원구 원선1로 38 101호",
+        "combination": "수동"
+      },
+      {
+        "name": "탄현대박로또복권",
+        "address": "경기 파주시 방촌로 661 1층상가 좌측",
+        "combination": "자동"
+      },
+      {
+        "name": "행복충전소",
+        "address": "경기 평택시 탄현로 332-2",
+        "combination": "수동"
+      },
+      {
+        "name": "천하명당복권방",
+        "address": "충남 홍성군 조양로 180",
+        "combination": "자동"
+      },
+      {
+        "name": "대광복권판매점",
+        "address": "전남 강진군 중앙로 83 1층",
+        "combination": "자동"
+      },
+      {
+        "name": "왕대박복권방",
+        "address": "경북 문경시 중앙로 15",
+        "combination": "수동"
+      },
+      {
+        "name": "드림복권",
+        "address": "경남 김해시 장유로 184 엠파이어상가일관 101호",
+        "combination": "자동"
+      },
+      {
+        "name": "로또플렉스 시티세븐점",
+        "address": "경남 창원시 성산구 원이대로 320 1층 S-108호(더시티세븐)",
+        "combination": "자동"
+      }
+    ]
+  },
+  {
     "round": 1209,
     "date": "2026-01-31",
     "stores": [
