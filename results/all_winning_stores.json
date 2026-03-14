@@ -1,5 +1,71 @@
 [
   {
+    "round": 1214,
+    "date": "2026-03-07",
+    "stores": [
+      {
+        "name": "인터넷 복권판매사이트",
+        "address": "동행복권(dhlottery.co.kr)",
+        "combination": "수동"
+      },
+      {
+        "name": "해인복권",
+        "address": "서울 도봉구 도당로9길 63 나동 1층",
+        "combination": "자동"
+      },
+      {
+        "name": "행운 로또복권",
+        "address": "부산 해운대구 좌동로 107-10",
+        "combination": "수동"
+      },
+      {
+        "name": "왕대박",
+        "address": "부산 동래구 여고로113번길 59-4",
+        "combination": "자동"
+      },
+      {
+        "name": "알리바이",
+        "address": "광주 광산구 수등로 253 1층 알리바이",
+        "combination": "수동"
+      },
+      {
+        "name": "알리바이",
+        "address": "광주 광산구 수등로 253 1층 알리바이",
+        "combination": "수동"
+      },
+      {
+        "name": "희망복권",
+        "address": "경기 평택시 만세로 1776 성경마트 동일건물",
+        "combination": "수동"
+      },
+      {
+        "name": "수원역로또맛집",
+        "address": "경기 수원시 팔달구 덕영대로 907 1층 6호(매산로1가)",
+        "combination": "자동"
+      },
+      {
+        "name": "명품복권방",
+        "address": "전남 목포시 섶나루길 122 상가 123호",
+        "combination": "자동"
+      },
+      {
+        "name": "복권파는집",
+        "address": "경남 창원시 마산회원구 3·15대로 765",
+        "combination": "자동"
+      },
+      {
+        "name": "터미널복권판매점",
+        "address": "경남 창원시 마산회원구 3·15대로 756 1층 102호(마산시외버스터미널)",
+        "combination": "자동"
+      },
+      {
+        "name": "양산노다지복권방",
+        "address": "경남 양산시 북안남2길 52 복권판매점",
+        "combination": "자동"
+      }
+    ]
+  },
+  {
     "round": 1213,
     "date": "2026-02-28",
     "stores": [
