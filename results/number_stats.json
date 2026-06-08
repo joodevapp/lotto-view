@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-01",
-  "total_rounds": 1226,
-  "2개월": 5,
-  "6개월": 9,
+  "generated_at": "2026-06-08",
+  "total_rounds": 1227,
+  "2개월": 4,
+  "6개월": 8,
   "1년": 13,
   "3년": 29,
   "10년": 86,
@@ -11,14 +11,14 @@
       "top": [
         28,
         18,
-        32,
-        45,
+        41,
+        1,
         2,
         4
       ],
       "bottom": [
-        24,
         29,
+        31,
         35,
         37,
         38,
@@ -27,7 +27,7 @@
       "stats": [
         {
           "number": 1,
-          "count": 1
+          "count": 2
         },
         {
           "number": 2,
@@ -35,7 +35,7 @@
         },
         {
           "number": 3,
-          "count": 1
+          "count": 0
         },
         {
           "number": 4,
@@ -79,7 +79,7 @@
         },
         {
           "number": 14,
-          "count": 0
+          "count": 1
         },
         {
           "number": 15,
@@ -87,7 +87,7 @@
         },
         {
           "number": 16,
-          "count": 1
+          "count": 2
         },
         {
           "number": 17,
@@ -135,7 +135,7 @@
         },
         {
           "number": 28,
-          "count": 5
+          "count": 4
         },
         {
           "number": 29,
@@ -147,11 +147,11 @@
         },
         {
           "number": 31,
-          "count": 1
+          "count": 0
         },
         {
           "number": 32,
-          "count": 3
+          "count": 2
         },
         {
           "number": 33,
@@ -159,7 +159,7 @@
         },
         {
           "number": 34,
-          "count": 1
+          "count": 2
         },
         {
           "number": 35,
@@ -187,11 +187,11 @@
         },
         {
           "number": 41,
-          "count": 2
+          "count": 3
         },
         {
           "number": 42,
-          "count": 2
+          "count": 1
         },
         {
           "number": 43,
@@ -199,11 +199,11 @@
         },
         {
           "number": 44,
-          "count": 1
+          "count": 2
         },
         {
           "number": 45,
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -211,23 +211,23 @@
       "top": [
         27,
         28,
+        1,
         15,
         17,
-        31,
-        38
+        31
       ],
       "bottom": [
+        34,
         37,
         40,
+        7,
         12,
-        14,
-        34,
         43
       ],
       "stats": [
         {
           "number": 1,
-          "count": 4
+          "count": 5
         },
         {
           "number": 2,
@@ -251,7 +251,7 @@
         },
         {
           "number": 7,
-          "count": 2
+          "count": 1
         },
         {
           "number": 8,
@@ -259,7 +259,7 @@
         },
         {
           "number": 9,
-          "count": 4
+          "count": 3
         },
         {
           "number": 10,
@@ -279,7 +279,7 @@
         },
         {
           "number": 14,
-          "count": 1
+          "count": 2
         },
         {
           "number": 15,
@@ -287,7 +287,7 @@
         },
         {
           "number": 16,
-          "count": 3
+          "count": 4
         },
         {
           "number": 17,
@@ -319,7 +319,7 @@
         },
         {
           "number": 24,
-          "count": 3
+          "count": 2
         },
         {
           "number": 25,
@@ -331,7 +331,7 @@
         },
         {
           "number": 27,
-          "count": 9
+          "count": 8
         },
         {
           "number": 28,
@@ -359,15 +359,15 @@
         },
         {
           "number": 34,
-          "count": 1
+          "count": 2
         },
         {
           "number": 35,
-          "count": 4
+          "count": 3
         },
         {
           "number": 36,
-          "count": 4
+          "count": 3
         },
         {
           "number": 37,
@@ -387,7 +387,7 @@
         },
         {
           "number": 41,
-          "count": 4
+          "count": 5
         },
         {
           "number": 42,
@@ -399,7 +399,7 @@
         },
         {
           "number": 44,
-          "count": 4
+          "count": 5
         },
         {
           "number": 45,
@@ -414,7 +414,7 @@
         28,
         3,
         15,
-        6
+        1
       ],
       "bottom": [
         21,
@@ -427,7 +427,7 @@
       "stats": [
         {
           "number": 1,
-          "count": 8
+          "count": 9
         },
         {
           "number": 2,
@@ -455,7 +455,7 @@
         },
         {
           "number": 8,
-          "count": 9
+          "count": 8
         },
         {
           "number": 9,
@@ -467,7 +467,7 @@
         },
         {
           "number": 11,
-          "count": 6
+          "count": 5
         },
         {
           "number": 12,
@@ -487,11 +487,11 @@
         },
         {
           "number": 16,
-          "count": 11
+          "count": 12
         },
         {
           "number": 17,
-          "count": 8
+          "count": 7
         },
         {
           "number": 18,
@@ -559,7 +559,7 @@
         },
         {
           "number": 34,
-          "count": 2
+          "count": 3
         },
         {
           "number": 35,
@@ -567,7 +567,7 @@
         },
         {
           "number": 36,
-          "count": 8
+          "count": 7
         },
         {
           "number": 37,
@@ -579,7 +579,7 @@
         },
         {
           "number": 39,
-          "count": 7
+          "count": 6
         },
         {
           "number": 40,
@@ -587,7 +587,7 @@
         },
         {
           "number": 41,
-          "count": 8
+          "count": 9
         },
         {
           "number": 42,
@@ -599,7 +599,7 @@
         },
         {
           "number": 44,
-          "count": 6
+          "count": 7
         },
         {
           "number": 45,
@@ -609,17 +609,17 @@
     },
     "3년": {
       "top": [
-        30,
-        6,
         16,
+        30,
         38,
-        3,
-        28
+        6,
+        28,
+        3
       ],
       "bottom": [
         42,
-        22,
         25,
+        22,
         43,
         2,
         5
@@ -627,7 +627,7 @@
       "stats": [
         {
           "number": 1,
-          "count": 21
+          "count": 22
         },
         {
           "number": 2,
@@ -635,7 +635,7 @@
         },
         {
           "number": 3,
-          "count": 27
+          "count": 26
         },
         {
           "number": 4,
@@ -647,7 +647,7 @@
         },
         {
           "number": 6,
-          "count": 28
+          "count": 27
         },
         {
           "number": 7,
@@ -687,7 +687,7 @@
         },
         {
           "number": 16,
-          "count": 28
+          "count": 29
         },
         {
           "number": 17,
@@ -711,7 +711,7 @@
         },
         {
           "number": 22,
-          "count": 16
+          "count": 15
         },
         {
           "number": 23,
@@ -743,7 +743,7 @@
         },
         {
           "number": 30,
-          "count": 29
+          "count": 28
         },
         {
           "number": 31,
@@ -759,7 +759,7 @@
         },
         {
           "number": 34,
-          "count": 19
+          "count": 20
         },
         {
           "number": 35,
@@ -799,7 +799,7 @@
         },
         {
           "number": 44,
-          "count": 21
+          "count": 22
         },
         {
           "number": 45,
@@ -810,11 +810,11 @@
     "10년": {
       "top": [
         12,
-        45,
-        21,
         16,
-        6,
-        33
+        21,
+        45,
+        33,
+        3
       ],
       "bottom": [
         23,
@@ -847,7 +847,7 @@
         },
         {
           "number": 6,
-          "count": 79
+          "count": 78
         },
         {
           "number": 7,
@@ -879,7 +879,7 @@
         },
         {
           "number": 14,
-          "count": 67
+          "count": 68
         },
         {
           "number": 15,
@@ -887,11 +887,11 @@
         },
         {
           "number": 16,
-          "count": 80
+          "count": 81
         },
         {
           "number": 17,
-          "count": 69
+          "count": 68
         },
         {
           "number": 18,
@@ -911,7 +911,7 @@
         },
         {
           "number": 22,
-          "count": 64
+          "count": 63
         },
         {
           "number": 23,
@@ -935,7 +935,7 @@
         },
         {
           "number": 28,
-          "count": 75
+          "count": 74
         },
         {
           "number": 29,
@@ -959,7 +959,7 @@
         },
         {
           "number": 34,
-          "count": 73
+          "count": 74
         },
         {
           "number": 35,
@@ -987,7 +987,7 @@
         },
         {
           "number": 41,
-          "count": 67
+          "count": 68
         },
         {
           "number": 42,
@@ -999,11 +999,11 @@
         },
         {
           "number": 44,
-          "count": 68
+          "count": 69
         },
         {
           "number": 45,
-          "count": 82
+          "count": 81
         }
       ]
     }
